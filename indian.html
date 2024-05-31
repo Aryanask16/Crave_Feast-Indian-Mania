@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crave-Feast: Indian Mania</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="Flavouricious.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="nav">
+        <img src="Flavouricious.png" alt="">
+        <div id="nav1">
+            <h4>The Indian Mania</h4>
+        </div>
+    </div>
+    <video autoplay loop muted src="/Indian/indian.mp4"></video>
+    <div id="main">
+        <div id="page1">
+            <div class="item1">
+                <div class="imagenew">
+                    <img src="/Indian/biryani.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2>
+                        Special Biryani
+                        </h2>
+                        <p> A fragrant rice dish cooked with aromatic spices, and often layered with marinated meat or vegetables.</p>
+                        <div class="container">
+                            <button class="btn decreaseBtn">-</button>
+                            <span class="quantity">0</span>
+                            <button class="btn increaseBtn">+</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="page2">
+            <div class="item1">
+                <div class="description">
+                    <h2>
+                        Authentic Masala Dosa
+                        </h2>
+                        <p>  A crispy, thin South Indian crepe made from fermented rice and lentil batter, usually served with chutney and sambar.</p>
+                        <div class="container">
+                            <button class="btn decreaseBtn">-</button>
+                            <span class="quantity">0</span>
+                            <button class="btn increaseBtn">+</button>
+                        </div>
+                </div>
+                <div class="imagenew">
+                    <img src="/Indian/Dosa.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <div class="item1">
+                <div class="imagenew">
+                    <img src="/Indian/Malai-Kofta.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2>
+                       Malai Kofta
+                        </h2>
+                        <p> Deep-fried vegetable or paneer balls served in a rich, creamy tomato-based gravy, often garnished with fresh cream.</p>
+                        <div class="container">
+                            <button class="btn decreaseBtn">-</button>
+                            <span class="quantity">0</span>
+                            <button class="btn increaseBtn">+</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div class="item1">
+                <div class="description">
+                    <h2>
+                        Buttery Naan
+                        </h2>
+                        <p>  A soft, leavened flatbread traditionally baked in a tandoor oven, often served with various Indian dishes.</p>
+                        <div class="container">
+                            <button class="btn decreaseBtn">-</button>
+                            <span class="quantity">0</span>
+                            <button class="btn increaseBtn">+</button>
+                        </div>
+                </div>
+                <div class="imagenew">
+                    <img src="/Indian/naan.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="page5">
+            <div class="item1">
+                <div class="imagenew">
+                    <img src="/Indian/paneer.jpg" alt="">
+                </div>
+                <div class="description">
+                    <h2>
+                       Shahi Paneer
+                        </h2>
+                        <p> A rich and creamy curry made with paneer (Indian cottage cheese), cooked in a sauce of tomatoes, cream, and aromatic spices.</p>
+                        <div class="container">
+                            <button class="btn decreaseBtn">-</button>
+                            <span class="quantity">0</span>
+                            <button class="btn increaseBtn">+</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="page6">
+            <div class="item1">
+                <div class="description">
+                    <h2>
+                      Delux Thali
+                    </h2>
+                    <p> A traditional Indian meal platter that includes a variety of dishes like rice, bread, curries, and desserts, offering a complete and balanced meal.</p>
+                    <div class="container">
+                        <button class="btn decreaseBtn">-</button>
+                        <span class="quantity">0</span>
+                        <button class="btn increaseBtn">+</button>
+                    </div>
+                </div>
+                <div class="imagenew">
+                    <img src="/Indian/thali.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"
+        integrity="sha512-1PKqXBz2ju2JcAerHKL0ldg0PT/1vr3LghYAtc59+9xy8e19QEtaNUyt1gprouyWnpOPqNJjL4gXMRMEpHYyLQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
